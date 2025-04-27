@@ -1,5 +1,7 @@
 # pizza-sales-sql-analysis
 
+
+
 create database dominous;
 create table orders (
 order_id int primary key,
@@ -55,9 +57,6 @@ FROM
 GROUP BY size
 ORDER BY total_orders DESC;
 
-
-* Question Set 2 - Moderate */
-
   
 list the top 5 most ordered pizzas  along with their quantaty
 
@@ -74,6 +73,7 @@ ORDER BY total_count DESC
 LIMIT 1;
 
 
+* Question Set 2 - Moderate */
 
   
 #joins the tables and found out the total quantity of each pizza category orderred
@@ -100,7 +100,6 @@ order by total_quantity desc;
 
 
 
-/* Question Set 3 - Advance */
 
 -- Join relevant tables to find the category-wise distribution of pizzas.
 
@@ -108,11 +107,11 @@ select category,count(pizza_type_id) as total_count
  from pizza_types
  group by category
  order by total_count desc;
- 
+
 
  
  -- Determine the top 3 most ordered pizza types based on revenue.\
-#od,quNTITY P.PRICE PT.NAMES
+
 
 SELECT 
     pt.name AS name_, SUM(price * quantity) AS revenue
@@ -128,6 +127,7 @@ LIMIT 3;
 
 
 
+ /* Question Set 3 - Advance */
 
 -- Calculate the percentage contribution of each pizza type to total revenue.
 SELECT 
