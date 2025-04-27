@@ -1,13 +1,11 @@
-# pizza-sales-sql-analysis
+# pizza-sales-analysis(sql)
 
 **DATABASE USED- MYsql workbench**
 
 ABOUT THE COURSE
-
 This is beginner level mini project which will give a understanding of sql.
 
 In this project i learned about
-
 **Analyzed pizza sales data using SQL to identify sales trends and customer preferences.
 Wrote complex queries using joins, aggregations (SUM(), COUNT()), GROUP BY, and filtering techniques.
 Identified top 5 best-selling pizzas, peak sales days, and popular pizza sizes.
